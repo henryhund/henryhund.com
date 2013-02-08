@@ -7,6 +7,6 @@
 		<!--<p>I will post brief updates about my interests, studies and projects here.</p>-->
 		<p>And you can always find me via <a href="mailto.php"><img title="E-Mail Me." class="Message" src="assets/mail.png"/></a> <a href="http://www.linkedin.com/in/henryhund" target="_blank"><img title="Find me on LinkedIn." class="Message" src="assets/linkedin.png"/></a> <a href="http://www.twitter.com/henryhund" target="_blank"><img title="Find me on Twitter." class="Message" src="assets/twitter.png"/></a> <a href="http://www.facebook.com/henryhund"><img title="Find me on Facebook." class="Message" src="assets/facebook.png" target="_blank"/></a></p>
 	</div>
-	<div class="Footer">Last Updated Spring 2013. Work in progress.</div>
+	<div class="Footer">Last Updated Spring 2013. Work in progress. Test</div>
 	
 <?php include("footer.php")?>

@@ -1,0 +1,71 @@
+/*--Basic Body--*/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #363333;
+}
+/*--End Basic Body--*/
+
+/*--Layout Info--*/
+div.Container {
+	
+	margin-top: 65px;
+	padding-top:40px;
+	margin-left: 60px;
+	padding-left:40px;
+	max-width:490px;
+	padding-right:40px;
+	padding-bottom:40px;
+}
+
+img.Message {
+	vertical-align:middle;
+}
+/*--End Layout Info--*/
+
+/*--Basic Fonts--*/
+div,h1.Header {
+	color:#FFF;
+	font-family: "Lobster" ,'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'HelveticaNeue W01 25 UltLt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+div.Message {
+	color:#00C8C8;
+	font-family: "Ropa Sans" ,'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'HelveticaNeue W01 25 UltLt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+div.Footer {
+	color:#00C8C8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size: 10px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+/*--End Basic Fonts--*/
+
+/*--Message Links--*/
+a.Message:link {
+	color: #FFD300; 
+}
+a.Message:visited {
+	color: #FFD300;
+}
+a.Message:hover {
+	color: #007C7C;
+}
+a.Message:active {
+	color: #00C8C8;
+}
+
+
+/*--End Message Links--*/

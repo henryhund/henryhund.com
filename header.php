@@ -8,6 +8,12 @@
 	<link REL="SHORTCUT ICON" HREF="http://src.sencha.io/16/16/http://graph.facebook.com/HenryHund/picture">
 	<link rel="stylesheet" href="css/fonts.css" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+	<meta name="description" content="Henry Hund, small business consultant, student, homebrewer and aspiring technologist and entrepreneur." /> 
+	<meta name="keywords" content="Henry, Hund, Henry Hund, Hank, Hank Hund, Wharton, Penn State, University of Pennsylvania, UPenn, Entreprenuer, Technologist, Homebrewer, Beer" /> 
+	<meta name="author" content="Henry Hund" /> 
+	<meta name="robots" content="all" />
 <?php include("analyticstracking.php")?>
 </head>
 <body>

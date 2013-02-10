@@ -21,6 +21,9 @@ div.Container {
 img.Message {
 	vertical-align:middle;
 }
+li {
+	margin-bottom:10px;
+}
 /*--End Layout Info--*/
 
 /*--Basic Fonts--*/

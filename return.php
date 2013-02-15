@@ -1,1 +1,0 @@
-<div class="Message" style="font-size:10px"><a href="index.php" class="Message">...return home</a><br/><br/>

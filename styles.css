@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.grid {
+    width: 125px
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main>article {
+    flex: 1;
+}
+
+#main>nav,
+#main>aside {
+    flex: 0 0 100px;
+    background: white;
+}
+
+#main>nav {
+    order: -1;
+}
+
+header, footer {
+    background: white;
+    height: 20px;
+}
+
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+
+a {
+    color: inherit;
+    padding-bottom: 1px;
+    display: inline;
+    text-decoration: none;
+    transition: color .2s ease;
+    box-sizing: border-box;
+}
+
+a:hover {
+    transition: color .2s ease;
+}
+
+.color-one {
+    border-bottom: solid 2px red;
+}
+
+.color-one:hover {
+    color: red;
+}
+
+.header {
+    color: inherit;
+    padding-bottom: 1px;
+    display: inline;
+    text-decoration: none;
+    text-decoration-color: red;
+    transition: color .2s ease;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.color-two {
+    border-bottom: solid 2px orange;
+}
+
+.color-three {
+    border-bottom: solid 2px yellow;
+}
+
+.color-four {
+    border-bottom: solid 2px green;
+}
+
+.color-five {
+    border-bottom: solid 2px blue;
+}
+
+.color-five:hover {
+    color: blue;
+}
+
+.color-six {
+    border-bottom: solid 2px indigo;
+}
+
+.color-six:hover {
+    color: indigo;
+}
+
+.color-seven {
+    border-bottom: solid 2px violet;
+}
+
+.color-seven:hover {
+    color: violet;
+}
+
+.row {
+    padding-top: 20px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.column {
+    width: 200px;
+    /* float: left; */
+    text-align: center;
+    font-size: 11px;
+    line-height: 12px;
+    margin-right:20px;
+    padding-bottom: 10px;
+}
+.section {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 667px) {
+    .section {
+        text-align: center;
+    }
+    .row {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+
+    }
+    .column {
+        display: inline-block;
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        float: none;
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width: 668px) {
+
+    .row {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+
+    }
+    .column {
+        float: left;
+    }
+}
